@@ -1,0 +1,70 @@
+body {
+  /* min-width: 850px; */
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#dropdown-basic-button {
+  text-align: left;
+  width: 100%;
+}
+
+.padding {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.card-padding {
+  padding-bottom: 10px;
+}
+
+.table-responsive {
+  height: 300px !important;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.navbar-div {
+  position: relative;
+}
+
+.legend-div {
+  bottom: 0;
+  position: absolute;
+}
+
+.legend {
+  list-style: none;
+}
+.legend li {
+  margin-right: 10px;
+}
+.legend span {
+  border: 1px solid #ccc;
+  float: left;
+  width: 12px;
+  height: 12px;
+  margin: 2px;
+}
+
+.legend .superawesome {
+  background-color: #ffb6a6;
+}
+.legend .awesome {
+  background-color: #ffe3a6;
+}
+.legend .kindaawesome {
+  background-color: #c3ffa6;
+}
+.legend .notawesome {
+  background-color: #a6ffe3;
+}
